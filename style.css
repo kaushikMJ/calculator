@@ -1,0 +1,112 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image: linear-gradient(#87CEFA, yellow);
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+}
+
+#container{
+	margin:0 auto;
+	/* 0 means top and bottom margin is 0..auto means  
+	   if the parent is 100px and the child is 50px, then the auto property will determine that there's 50px of free space to share between margin-left and margin-right:
+	*/
+}
+
+#calculator{
+	width:320px;
+	height:520px;
+	background-color: 	#FFE4B5;
+	margin:0 auto;
+	position: relative;
+	top:20px;
+	border-radius: 5px;
+
+}
+
+#heading{
+	height: 5px;
+	margin: 3px auto;
+	position: relative;
+	text-align: center;
+}
+#result{
+	height:120px;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin:0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color:#919191;
+	/*text-decoration-color: red;*/
+}
+
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	/*text-decoration-color: red;*/
+}
+
+#keyboard{
+	height:400px;
+}
+
+.operator, .number, .empty{
+	width:50px;
+	height:50px;
+	margin:15px;
+	float: left;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 18px;
+	border-width: 0;
+}
+
+.number{
+	background-color: 	#87CEFA;
+}
+
+.number, .operator{
+	cursor:pointer;
+}
+
+.empty{
+	background-color: #FFE4B5;
+}
+
+.operator:active, .number:active{
+	font-size:13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+	outline:0;
+}
+
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #EE82EE;
+}
+
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #FF00FF;
+}
+
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #9370DB;
+}
+
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #8A2BE2;
+}
+
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #800080;
+}
