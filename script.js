@@ -34,6 +34,7 @@ function reverseNumberFormat(num){
 }
 
 var operator=document.getElementsByClassName("operator");
+var k=2;
 for(var i=0;i<operator.length;i++)
 {
 	operator[i].addEventListener('click',function(){
