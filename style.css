@@ -9,6 +9,7 @@ body{
 	margin:0 auto;
 	/* 0 means top and bottom margin is 0..auto means  
 	   if the parent is 100px and the child is 50px, then the auto property will determine that there's 50px of free space to share between margin-left and margin-right:
+	
 	*/
 }
 
